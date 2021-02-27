@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntersectSteam", "IntersectSteam\IntersectSteam.csproj", "{3498E0C3-E0A3-4C1D-ABAA-23F16CF01FE4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3498E0C3-E0A3-4C1D-ABAA-23F16CF01FE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3498E0C3-E0A3-4C1D-ABAA-23F16CF01FE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3498E0C3-E0A3-4C1D-ABAA-23F16CF01FE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3498E0C3-E0A3-4C1D-ABAA-23F16CF01FE4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B7DFEFA-B5B9-40CC-9799-4C3475F51B73}
+	EndGlobalSection
+EndGlobal
