@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace IntersectSteam.Enums
 {
-    public enum InitError
+    public enum IntersectSteamError
     {
         NoError = 0,
 
@@ -14,6 +14,18 @@ namespace IntersectSteam.Enums
 
         NoApiKey,
 
-        UnKnown
+        WrongBaseUrl,
+
+        WrongId,
+
+        Unauthorized,
+
+        NoOrder,
+
+        EmptyString,
+
+        Uninitialized,
+
+        UnKnown,
     }
 }

@@ -50,8 +50,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Enums\InitError.cs" />
-    <Compile Include="ApiService.cs" />
+    <Compile Include="Enums\IntersectSteamError.cs" />
+    <Compile Include="SteamApiService.cs" />
     <Compile Include="Models\Errors\ApiError.cs" />
     <Compile Include="Models\Orders\Order.cs" />
     <Compile Include="Models\Orders\OrderItem.cs" />
