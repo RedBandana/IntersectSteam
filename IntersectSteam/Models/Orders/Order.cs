@@ -1,5 +1,4 @@
-﻿using IntersectSteam.Models.Users;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace IntersectSteam.Models.Orders
 {

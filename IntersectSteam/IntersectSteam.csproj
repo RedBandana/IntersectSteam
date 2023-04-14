@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>IntersectSteam</RootNamespace>
-    <AssemblyName>Intersect Steam</AssemblyName>
+    <AssemblyName>IntersectSteam</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -51,14 +51,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Enums\RequestStatus.cs" />
+    <Compile Include="Models\Requests\UserInfoRequest.cs" />
     <Compile Include="Models\Responses\TransactionParams.cs" />
     <Compile Include="Models\Responses\IParams.cs" />
     <Compile Include="Models\Responses\UserInfoParams.cs" />
     <Compile Include="Models\Orders\OrderRequest.cs" />
-    <Compile Include="Models\Transactions\FinalizeTransactionRequest.cs" />
-    <Compile Include="Models\Transactions\InitializeTransactionRequest.cs" />
-    <Compile Include="Models\Transactions\TransactionBundle.cs" />
-    <Compile Include="Models\Transactions\TransactionItem.cs" />
+    <Compile Include="Models\Requests\FinalizeTransactionRequest.cs" />
+    <Compile Include="Models\Requests\InitializeTransactionRequest.cs" />
+    <Compile Include="Models\Requests\TransactionBundle.cs" />
+    <Compile Include="Models\Requests\TransactionItem.cs" />
     <Compile Include="IntersectSteam.cs" />
     <Compile Include="Models\Responses\ApiError.cs" />
     <Compile Include="Models\Orders\Order.cs" />
@@ -68,6 +69,9 @@
     <Compile Include="Utility.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="LICENSE.md">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
