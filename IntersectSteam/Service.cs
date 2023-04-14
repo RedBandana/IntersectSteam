@@ -12,7 +12,7 @@ using Newtonsoft.Json;
 namespace IntersectSteam
 {
     //https://partner.steamgames.com/doc/webapi/ISteamMicroTxn
-    public static class IntersectSteam
+    public static class Service
     {
         private static uint AppId = 0;
         private static string ApiKey = "";
