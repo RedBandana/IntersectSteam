@@ -1,4 +1,5 @@
-﻿
+﻿using IntersectSteam.Models.Transactions;
+
 namespace IntersectSteam.Models.Orders
 {
     public class OrderRequest
@@ -17,5 +18,16 @@ namespace IntersectSteam.Models.Orders
             Currency = currency;
             Order = order;
         }
+
+        public InitializeTransactionRequest ToTransactionRequest()
+        {
+            var transactionRequest = new InitializeTransactionRequest();
+            transactionRequest.SteamId = SteamId;
+            transactionRequest.Currency = Currency;
+            transactionRequest.Language = Utility.GetIso639Language(Language);
+
+            return transactionRequest;
+        }
+
     }
 }

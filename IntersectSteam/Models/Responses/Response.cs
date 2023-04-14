@@ -1,18 +1,19 @@
-﻿using IntersectSteam.Models.Errors;
+﻿using IntersectSteam.Models.Api;
 
 namespace IntersectSteam.Models.Transactions
 {
     public class Response
     {
         public string Result { get; set; }
+        public IParams Params { get; set; }
         public ApiError Error { get; set; }
+        public string GenericError { get; set; }
 
         public Response() { }
 
-        public Response(string result, ApiError error)
+        public Response(string genericError)
         {
-            Result = result;
-            Error = error;
+            GenericError = genericError;
         }
     }
 }
