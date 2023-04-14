@@ -51,15 +51,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Enums\RequestStatus.cs" />
+    <Compile Include="Models\Responses\TransactionParams.cs" />
+    <Compile Include="Models\Responses\IParams.cs" />
+    <Compile Include="Models\Responses\UserInfoParams.cs" />
     <Compile Include="Models\Orders\OrderRequest.cs" />
-    <Compile Include="Models\Transactions\TransactionRequest.cs" />
+    <Compile Include="Models\Transactions\FinalizeTransactionRequest.cs" />
+    <Compile Include="Models\Transactions\InitializeTransactionRequest.cs" />
+    <Compile Include="Models\Transactions\TransactionBundle.cs" />
+    <Compile Include="Models\Transactions\TransactionItem.cs" />
     <Compile Include="IntersectSteam.cs" />
-    <Compile Include="Models\ApiError.cs" />
+    <Compile Include="Models\Responses\ApiError.cs" />
     <Compile Include="Models\Orders\Order.cs" />
     <Compile Include="Models\Orders\OrderItem.cs" />
-    <Compile Include="Models\Transactions\TransactionResponse.cs" />
-    <Compile Include="Models\Transactions\Response.cs" />
+    <Compile Include="Models\Responses\Response.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utility.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
